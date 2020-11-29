@@ -10,16 +10,21 @@ namespace BLL
 {
     public class BLLBook
     {
+        private DALConnection connection;
+
+        public BLLBook(DALConnection cx)
+        {
+            this.connection = cx;
+        }
+
+        public void Include(ModelBook obj)
+        {
+            
+        }
 
 
 
 
-
-            private DALConexao conexao;
-            public BLLBook(DALConexao cx)
-            {
-                this.conexao = cx;
-            }
             public void Incluir(ModeloProduto obj)
             {
                 if (obj.ProNome.Trim().Length == 0)
