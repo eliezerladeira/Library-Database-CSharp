@@ -1,0 +1,5 @@
+C:\Users\eliez\OneDrive\Projetos\Library-Database-CSharp\LibraryDatabase\Model\bin\Debug\Model.dll
+C:\Users\eliez\OneDrive\Projetos\Library-Database-CSharp\LibraryDatabase\Model\bin\Debug\Model.pdb
+C:\Users\eliez\OneDrive\Projetos\Library-Database-CSharp\LibraryDatabase\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\eliez\OneDrive\Projetos\Library-Database-CSharp\LibraryDatabase\Model\obj\Debug\Model.dll
+C:\Users\eliez\OneDrive\Projetos\Library-Database-CSharp\LibraryDatabase\Model\obj\Debug\Model.pdb

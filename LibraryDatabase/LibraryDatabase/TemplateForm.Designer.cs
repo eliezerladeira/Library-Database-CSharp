@@ -177,6 +177,8 @@
             this.Controls.Add(this.btnClose);
             this.Name = "TemplateForm";
             this.Text = "TemplateForm";
+            this.Load += new System.EventHandler(this.TemplateForm_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TemplateForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();
             this.ResumeLayout(false);
 
@@ -184,13 +186,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnInclude;
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnChange;
-        private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnPrint;
-        private System.Windows.Forms.DataGridView dgvData;
+        protected System.Windows.Forms.Button btnInclude;
+        protected System.Windows.Forms.Button btnCancel;
+        protected System.Windows.Forms.Button btnDelete;
+        protected System.Windows.Forms.Button btnChange;
+        protected System.Windows.Forms.Button btnSave;
+        protected System.Windows.Forms.Button btnClose;
+        protected System.Windows.Forms.Button btnPrint;
+        protected System.Windows.Forms.DataGridView dgvData;
     }
 }
