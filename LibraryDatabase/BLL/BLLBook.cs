@@ -19,7 +19,10 @@ namespace BLL
 
         public void Include(ModelBook obj)
         {
-            
+            if (obj.Book_Title.Trim().Length == 0)
+                throw new Exception("O Título do livro é obrigatório!");
+
+            if ()
         }
 
 
